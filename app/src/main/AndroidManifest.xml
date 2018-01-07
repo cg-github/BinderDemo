@@ -17,7 +17,7 @@
             </intent-filter>
         </activity>
         <service android:name="com.cheng.binderdemo.server.AidlBinderService"
-            android:process=":server">
+            android:process="com.cheng.server">
             <intent-filter>
                 <action android:name="com.cheng.binderdemo.server.AidlBinderService"></action>
                 <category android:name="android.intent.category.DEFAULT"></category>
